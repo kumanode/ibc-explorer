@@ -56,6 +56,7 @@
     "@osmonauts/telescope": "^0.88.2",
     "@irys/sdk": "^0.0.4",
     "arweave": "^1.14.4",
+    "warp-contracts": "^1.4.22",
     "@types/marked": "^4.0.8",
     "@types/node": "^18.11.12",
     "@types/numeral": "^2.0.2",
