@@ -1,20 +1,22 @@
 {
-    "chain_name": "megumii",
-    "coingecko": "",
-    "api": "https://rest.dym.kessoku.xyz",
-    "rpc": "https://api.dym.kessoku.xyz",
-    "snapshot_provider": "",
-    "sdk_version": "0.46.1",
-    "coin_type": "60",
-    "min_tx_fee": "500",
-    "addr_prefix": "NVM",
-    "logo": "/logos/meg.png",
-    "theme_color": "#ff4bff",
-    "assets": [{
-        "base": "uNVM",
-        "symbol": "NVM",
-        "exponent": "18",
-        "coingecko_id": "", 
-        "logo": "/logos/meg.png"
-    }]
+  "chain_name": "megumii",
+  "api": "https://rest.dym.kessoku.xyz",
+  "rpc": "https://api.dym.kessoku.xyz",
+  "chainId": "megumii_4962415-1",
+  "snapshot_provider": "",
+  "sdk_version": "0.46.1",
+  "coin_type": "60",
+  "min_tx_fee": "500",
+  "addr_prefix": "ethm",
+  "logo": "/logos/meg.png",
+  "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+  "theme_color": "#ff4bff",
+  "assets": [{
+      "base": "uNVM",
+      "symbol": "NVM",
+      "exponent": "18",
+      "coingecko_id": "", 
+      "logo": "/logos/meg.png"
+  }],
+  "beta": true
 }
