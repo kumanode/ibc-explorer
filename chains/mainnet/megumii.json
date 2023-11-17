@@ -1,20 +1,51 @@
 {
-    "chain_name": "megumii",
-    "api": "https://rest.dym.kessoku.xyz",
+    "chainName": "megumii",
+    "rest": "https://rest.dym.kessoku.xyz",
     "rpc": "https://api.dym.kessoku.xyz",
-    "snapshot_provider": "",
-    "sdk_version": "0.46.1",
-    "coin_type": "60",
-    "min_tx_fee": "500",
-    "addr_prefix": "ethm",
-    "logo": "/logos/meg.png",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
-    "theme_color": "#ff4bff",
-    "assets": [{
-        "base": "uNVM",
-        "symbol": "NVM",
-        "exponent": "18",
-        "coingecko_id": "", 
-        "logo": "/logos/meg.png"
-    }]
-}
+    "chainId": "megumii_4962415-1",
+    "currencies": [
+      {
+        "coinMinimalDenom": "uNVM",
+        "coinDenom": "NVM",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/megumii_4962415-1/logos/megumii_4962415-1.png"
+      }
+    ],
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "ethm",
+      "bech32PrefixAccPub": "ethmpub",
+      "bech32PrefixValAddr": "ethmvaloper",
+      "bech32PrefixValPub": "ethmvaloperpub",
+      "bech32PrefixConsAddr": "ethmvalcons",
+      "bech32PrefixConsPub": "ethmvalconspub"
+    },
+    "beta": true,
+    "stakeCurrency": {
+      "coinMinimalDenom": "uNVM",
+      "coinDenom": "NVM",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/megumii_4962415-1/logos/megumii_4962415-1.png"
+    },
+    "feeCurrencies": [
+      {
+        "coinMinimalDenom": "uNVM",
+        "coinDenom": "NVM",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/megumii_4962415-1/logos/megumii_4962415-1.png",
+        "gasPriceStep": {
+          "low": 0.1,
+          "average": 0.25,
+          "high": 0.4
+        }
+      }
+    ],
+    "features": [
+      "ibc-transfer",
+      "ibc-go",
+      "eth-address-gen",
+      "eth-key-sign"
+    ]
+  }
