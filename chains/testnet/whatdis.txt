@@ -1,0 +1,51 @@
+{
+	"chainId": "cardtestnet-5",
+	"chainName": "CARDCHAIN",
+	"rpc": "",
+	"rest": "https://cc.api.t.stavr.tech",
+	"bip44": {
+		"coinType": 118
+	},
+	"coinType": 118,
+	"bech32Config": {
+		"bech32PrefixAccAddr": "cc",
+		"bech32PrefixAccPub": "ccpub",
+		"bech32PrefixValAddr": "ccvaloper",
+		"bech32PrefixValPub": "ccvaloperpub",
+		"bech32PrefixConsAddr": "ccvalcons",
+		"bech32PrefixConsPub": "ccvalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "bpf",
+			"coinMinimalDenom": "ubpf",
+			"coinDecimals": 6,
+			"coinGeckoId": "unknown"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "bpf",
+			"coinMinimalDenom": "ubpf",
+			"coinDecimals": 6,
+			"coinGeckoId": "unknown",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	},
+	"stakeCurrency": {
+		"coinDenom": "bpf",
+		"coinMinimalDenom": "ubpf",
+		"coinDecimals": 6,
+		"coinGeckoId": "unknown"
+	},
+	"features": []
+}
