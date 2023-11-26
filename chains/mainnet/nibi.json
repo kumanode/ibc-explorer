@@ -1,0 +1,20 @@
+{
+  "chain_name": "Nibiru",
+  "api": ["https://nibiru.api.kjnodes.com"],
+  "rpc": ["https://nibiru.rpc.kjnodes.com"],
+  "chainId": "catalysm-1",
+  "snapshot_provider": "",
+  "sdk_version": "0.46.1",
+  "coin_type": "118",
+  "min_tx_fee": "700",
+  "addr_prefix": "nibi",
+  "logo": "/logos/nibi.png",
+  "theme_color": "#020c9c",
+  "assets": [{
+      "base": "unibi",
+      "symbol": "NIBI",
+      "exponent": "6",
+      "coingecko_id": "", 
+      "logo": "/logos/nibi.png"
+  }]
+}

@@ -1,0 +1,21 @@
+{
+  "chain_name": "Celestia-Arabica",
+  "api": ["https://api-arabica-9.consensus.celestia-arabica.com"],
+  "rpc": ["https://rpc-arabica-9.consensus.celestia-arabica.com"],
+  "chainId": "arabica-9",
+  "snapshot_provider": "",
+  "sdk_version": "0.46.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "celestia",
+  "logo": "/logos/celes.png",
+  "theme_color": "#9b2bfc",
+  "assets": [{
+      "base": "utia",
+      "symbol": "TIA",
+      "exponent": "6",
+      "coingecko_id": "", 
+      "logo": "/logos/celes.png"
+  }],
+  "beta": true
+}

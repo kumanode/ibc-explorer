@@ -1,0 +1,22 @@
+{
+    "chain_name": "Mantra-Testnet",
+    "api": ["https://mantra.api.t.stavr.tech","https://mantra-testnet-api.itrocket.net:443", "https://api-t.mantra.nodestake.top" ],
+    "rpc": ["https://rpc-t.mantra.nodestake.top", "https://mantra-testnet-rpc.stake-town.com", "https://mantra-testnet-rpc.itrocket.net"],
+    "chainId": "mantrachain-testnet-1",
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "mantra",
+    "logo": "/logos/mantra.png",
+    "theme_color": "#c4756e",
+    "assets": [{
+        "base": "uaum",
+        "symbol": "aum",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/mantra.png"
+    }],
+    "beta": true
+  }
+  

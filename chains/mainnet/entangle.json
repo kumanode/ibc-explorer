@@ -1,0 +1,21 @@
+{
+  "chain_name": "Entangle-Testnet",
+  "api": ["https://entangle.api.t.stavr.tech","https://api-t.entangle.nodestake.top" ],
+  "rpc": ["https://rpc-t.entangle.nodestake.top"],
+  "chainId": "entangle_33133-1",
+  "snapshot_provider": "",
+  "sdk_version": "0.46.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "ethm",
+  "logo": "/logos/entangle.png",
+  "theme_color": "#4f5673",
+  "assets": [{
+      "base": "aNGL",
+      "symbol": "NGL",
+      "exponent": "18",
+      "coingecko_id": "", 
+      "logo": "/logos/entangle.png"
+  }],
+  "beta": true
+}

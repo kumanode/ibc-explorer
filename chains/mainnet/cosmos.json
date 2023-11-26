@@ -1,0 +1,21 @@
+{
+    "chain_name": "Cosmos",
+    "api": ["https://cosmos-api.polkachu.com","https://cosmoshub.api.kjnodes.com" ],
+    "rpc": ["https://rpc-cosmoshub.keplr.app", "https://cosmos-rpc.polkachu.com", "https://cosmoshub.rpc.kjnodes.com"],
+    "chainId": "cosmoshub-4",
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "cosmos",
+    "logo": "/logos/csms.png",
+    "theme_color": "#526869",
+    "assets": [{
+        "base": "uatom",
+        "symbol": "atom",
+        "exponent": "6",
+        "coingecko_id": "cosmos", 
+        "logo": "/logos/csms.png"
+    }]
+  }
+  
