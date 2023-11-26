@@ -21,13 +21,13 @@
     "links": "链接"
   },
   "pages": {
-    "title": "Kessoku Dashboard",
+    "title": "Kuma Node",
     "slogan": "Ping Dashboard 是一个区块链浏览器，也是一个网页钱包，还有更多 ... 🛠",
     "description": "Cosmos Ecosystem Blockchains 🚀",
     "search_placeholder": "搜索区块链",
     "add_to_favorite": "加入收藏夹",
     "title_all": "404",
-    "tag": "Generated with Ping.pub",
+    "tag": "Explorer",
     "tag_all": "哦呦，页面搞丢了！",
     "description_all": "We couldn't find the page you are looking for.",
     "btn_index": "返回主页"
