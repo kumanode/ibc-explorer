@@ -5,12 +5,12 @@
     "rpc": ["https://stride.testnet-1.stridenet.co:443"],
     "sdk_version": "0.46.7",
     "addr_prefix": "stride",    
-    "logo": "/logos/stride.jpg",
+    "logo": "/logos/stride.png",
     "assets": [{
         "base": "ustrd",
         "symbol": "STRD",
         "exponent": "6",
         "coingecko_id": "stride", 
-        "logo": "/logos/stride.jpg"
+        "logo": "/logos/stride.png"
     }]
 }
