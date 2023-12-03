@@ -1,5 +1,5 @@
 {
-  "chain_name": "Celestia-Arabica",
+  "chain_name": "Celestia-Testnet",
   "api": ["https://api-arabica-9.consensus.celestia-arabica.com"],
   "rpc": ["https://rpc-arabica-9.consensus.celestia-arabica.com"],
   "chainId": "arabica-9",
